@@ -1,0 +1,39 @@
+
+The aim of this code is to build a Rock, Paper, Scissors game using Machine Learning (Teachable Manchine) to make a computer vision project
+
+Milestone 1:
+
+In this Milestone, I went over to the ML site, Teachable Machine, and I created samples for each class (Rock, paper and Scissors) and exported the model via Tensorflow. Tensorflow was used as it helps you implement best practices for data automation, model tracking, performance monitoring, and model retraining. All of these are key if we want to make my project work effectively.
+
+Milestone 2:
+
+In this Milestone, I added the 
+
+Milestone 3:
+
+In this Milestone, I did two major things: create a copy of the environment and created a code that will simulate the Rock-Paper-Scissors game.
+
+I set up the environment by create a copy of myevn, which is the where I downloaded all of the necessary packages for my model to run smoothly.
+
+In terms of the coding for the game, the code will ask the user for an input, and then compare your input with computer's choice to show the winner. A player who decides to play rock will beat the other other player who has chosen scissors ("Rock beats Scissors") but will lose to one who has played Paper ("Paper covers Rock") The paper user will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.
+
+The possible scenarios are as follows:
+
+if (player == rock) and (computer == paper); computer wins
+
+if (player == paper) and (computer == paper); tie
+
+if (player == scissors) and (computer == paper); player wins
+
+if (player == rock) and (computer == rock); tie
+
+if (player == paper) and (computer == rock); player wins
+
+if (player == scissors) and (computer == rock); computer wins
+
+if (player == rock) and (computer == scissors); player wins
+
+if (player == paper) and (computer == scissors); computer wins
+
+if (player == scissors) and (computer == scissors); tie
+
